@@ -4,16 +4,16 @@ describe "Static pages" do
 
   describe "Home page" do
 
-    it "should have the content 'Step Stool'" do
+    it "should have the content 'smooth chair'" do
       visit '/static_pages/home'
-      expect(page).to have_content('Step Stool')
+      expect(page).to have_content('Smooth Chair')
     end
   end
   
   describe "Help page" do 
-  	it "should have content 'Help'" do 
+  	it "should have content 'help'" do 
   		visit "/static_pages/help"
-  		expect(page).to have_content('Help')
+  		expect(page).to have_content('help')
   	end
   end
   describe "About page" do 
